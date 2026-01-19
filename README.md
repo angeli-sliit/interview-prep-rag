@@ -208,7 +208,9 @@ MIT License
 ## 👤 Author
 
 **Angeli Wickrama Arachchige**  
-Undergraduate Data Science Student
+Undergraduate - Data Science
+
+GitHub: [@angeli-sliit](https://github.com/angeli-sliit)
 
 ## 🤝 Contributing
 
