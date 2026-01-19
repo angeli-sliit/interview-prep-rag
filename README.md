@@ -209,7 +209,6 @@ MIT License
 
 **Angeli Wickrama Arachchige**  
 Undergraduate - Data Science
-
 GitHub: [@angeli-sliit](https://github.com/angeli-sliit)
 
 ## 🤝 Contributing
