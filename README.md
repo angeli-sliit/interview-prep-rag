@@ -205,13 +205,14 @@ This prevents hallucinations and ensures answers are grounded in your actual doc
 
 MIT License
 
+## 👤 Author
+
+**Angeli Wickrama Arachchige**  
+Undergraduate Data Science Student
+
 ## 🤝 Contributing
 
 Contributions welcome! Please open an issue or submit a PR.
-
-## 📧 Contact
-
-_Your contact information_
 
 ---
 
