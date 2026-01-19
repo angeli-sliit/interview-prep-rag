@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  interview-prep-rag:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: interview-prep-rag
+    ports:
+      - "8501:8501"
+    environment:
+      # Add your API keys here or use .env file
+      # GROQ_API_KEY: ${GROQ_API_KEY}
+      # OPENAI_API_KEY: ${OPENAI_API_KEY}
+    volumes:
+      # Mount logs directory to persist logs
+      - ./logs:/app/logs
+      # Optional: Mount data directory if you want persistent vector stores
+      # - ./data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

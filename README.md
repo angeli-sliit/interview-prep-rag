@@ -69,15 +69,43 @@ interview-prep-rag/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.8 or higher (for local run)
+- OR Docker & Docker Compose (for containerized run)
 - Groq API key (free) or OpenAI API key
 
-### Installation
+### Option 1: Docker (Recommended - Easy Setup)
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
-cd Rag
+git clone https://github.com/angeli-sliit/interview-prep-rag.git
+cd interview-prep-rag
+```
+
+2. **Run with Docker Compose**
+```bash
+docker-compose up --build
+```
+
+3. **Access the app**
+   - Open http://localhost:8501 in your browser
+
+**With environment variables:**
+```bash
+# Create .env file
+echo "GROQ_API_KEY=your_key_here" > .env
+
+# Run
+docker-compose up
+```
+
+See [DOCKER_SETUP.md](DOCKER_SETUP.md) for detailed Docker instructions.
+
+### Option 2: Local Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/angeli-sliit/interview-prep-rag.git
+cd interview-prep-rag
 ```
 
 2. **Install dependencies**
@@ -86,8 +114,7 @@ pip install -r requirements.txt
 ```
 
 3. **Set up environment variables**
-   - Copy `.env.example` to `.env`
-   - Add your API key:
+   - Create `.env` file:
      ```
      GROQ_API_KEY=your_groq_api_key_here
      ```
@@ -128,6 +155,12 @@ streamlit run app.py
 - ✅ Multiple LLM provider support
 - ✅ Persistent vector database
 - ✅ Environment variable support for API keys
+- ✅ **Docker support for easy deployment**
+- ✅ Answer evaluation and scoring
+- ✅ Chat history with follow-up questions
+- ✅ CV-to-JD matching mode
+- ✅ Semantic search preview
+- ✅ Query logging and monitoring
 
 ## 🧠 How RAG Works
 

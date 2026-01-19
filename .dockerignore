@@ -1,0 +1,62 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info
+dist/
+build/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# ChromaDB databases (runtime-generated)
+db/
+db_*/
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Documentation (optional - comment out if you want to include)
+# README.md
+# ENHANCEMENTS.md
+# QUICKSTART.md
+# SETUP_CHECKLIST.md
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# OneDrive
+~$*
