@@ -2,6 +2,8 @@
 
 An AI-powered interview preparation assistant that helps candidates prepare role-specific answers using Retrieval-Augmented Generation (RAG).
 
+## live demo : https://interview-prep-rag.streamlit.app
+
 ## 🧠 Problem Statement
 
 ### ❌ Common Problems
