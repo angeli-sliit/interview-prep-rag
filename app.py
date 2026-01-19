@@ -20,8 +20,8 @@ load_dotenv()
 
 # Page config
 st.set_page_config(
-    page_title="🎯 Interview Prep RAG Bot",
-    page_icon="a",
+    page_title="Interview Prep RAG Bot",
+    page_icon="🎯",
     layout="wide"
 )
 
